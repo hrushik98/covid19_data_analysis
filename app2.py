@@ -144,7 +144,7 @@ def predict(image):
     
     # Load model weights - path needs to be adjusted based on where you store the model
     try:
-        model.load_state_dict(torch.load('covid_snn_model.pth', map_location=device))
+        model.load_state_dict(torch.load('covid_snn_model (1).pth', map_location=device))
     except:
         return None, None, None, "Model file not found. Please make sure 'covid_snn_model.pth' is in the current directory.", 0, 0, 0, 0
     
