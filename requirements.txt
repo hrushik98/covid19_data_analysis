@@ -2,6 +2,10 @@ absl-py==2.2.2
 aiofiles==24.1.0
 annotated-types==0.7.0
 anyio==4.9.0
+torch>=2.0.0
+torchvision>=0.15.0
+snntorch>=0.9.4
+timm>=1.0.0
 astunparse==1.6.3
 certifi==2025.4.26
 charset-normalizer==3.4.2
